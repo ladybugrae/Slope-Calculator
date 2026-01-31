@@ -1,0 +1,17 @@
+print('')
+print('Slope Calculator')
+print('')
+
+print('Please enter the coordinates of two nonvertical points.')
+
+x1 = eval(input('Enter x1: '))
+y1 = eval(input('Enter y1: '))
+x2 = eval(input('Enter x2: '))
+y2 = eval(input('Enter y2: '))
+
+rise = y2 - y1
+run = x2 - x1
+slope = rise / run
+
+print('')
+print(f'The slope of the line is {slope}')
